@@ -101,4 +101,7 @@ theme: async
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo:
+    server: git@123.57.57.107:/home/git/repos/hexo-blog-repo.git
+  branch: master
